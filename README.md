@@ -1,6 +1,6 @@
 # Service Generator
 
-[![StyleCI](https://github.styleci.io/repos/316340354/shield?branch=main)]
+![StyleCI](https://github.styleci.io/repos/316340354/shield?branch=main)
 
 Package description: Set up generic Classes in your Laravel Services folder really quick.
 
