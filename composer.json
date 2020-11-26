@@ -1,6 +1,6 @@
 {
-  "name": "capeandbay/service-generator",
-  "description": "A service generator",
+  "name": "capeandbay/laravel-service-generator",
+  "description": "A service generator for Laravel",
   "license": "MIT",
   "keywords": [
     "service",
