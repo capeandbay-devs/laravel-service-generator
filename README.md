@@ -1,30 +1,24 @@
 # Service Generator
 
-[![GitHub Workflow Status](https://github.com/cape-and-bay/service-generator/workflows/Run%20tests/badge.svg)](https://github.com/cape-and-bay/service-generator/actions)
-[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
+[![StyleCI](https://github.styleci.io/repos/316340354/shield?branch=main)]
 
-[![Packagist](https://img.shields.io/packagist/v/cape-and-bay/service-generator.svg)](https://packagist.org/packages/cape-and-bay/service-generator)
-[![Packagist](https://poser.pugx.org/cape-and-bay/service-generator/d/total.svg)](https://packagist.org/packages/cape-and-bay/service-generator)
-[![Packagist](https://img.shields.io/packagist/l/cape-and-bay/service-generator.svg)](https://packagist.org/packages/cape-and-bay/service-generator)
-
-Package description: CHANGE ME
+Package description: Set up generic Classes in your Laravel Services folder really quick.
 
 ## Installation
 
 Install via composer
 ```bash
-composer require cape-and-bay/service-generator
-```
-
-### Publish package assets
-
-```bash
-php artisan vendor:publish --provider="CapeAndBay\ServiceGenerator\ServiceProvider"
+composer require capeandbay/laravel-service-generator --dev
 ```
 
 ## Usage
 
-CHANGE ME
+In the Command line type
+
+```bash
+php artisan make:service ServiceClass
+```
+This command will create a "boilerplate'd" generic service class inside the Services folder.
 
 ## Security
 
@@ -33,8 +27,4 @@ instead of using the issue tracker.
 
 ## Credits
 
-- [](https://github.com/cape-and-bay/service-generator)
-- [All contributors](https://github.com/cape-and-bay/service-generator/graphs/contributors)
-
-This package is bootstrapped with the help of
-[melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator).
+- [Angel Gonzalez @ Cape & Bay](https://capeandbay.com)
