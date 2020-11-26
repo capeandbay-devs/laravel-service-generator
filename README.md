@@ -1,2 +1,40 @@
-# laravel-service-generator
-A super light weight package that creates new generic service classes in Laravel. 
+# Service Generator
+
+[![GitHub Workflow Status](https://github.com/cape-and-bay/service-generator/workflows/Run%20tests/badge.svg)](https://github.com/cape-and-bay/service-generator/actions)
+[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
+
+[![Packagist](https://img.shields.io/packagist/v/cape-and-bay/service-generator.svg)](https://packagist.org/packages/cape-and-bay/service-generator)
+[![Packagist](https://poser.pugx.org/cape-and-bay/service-generator/d/total.svg)](https://packagist.org/packages/cape-and-bay/service-generator)
+[![Packagist](https://img.shields.io/packagist/l/cape-and-bay/service-generator.svg)](https://packagist.org/packages/cape-and-bay/service-generator)
+
+Package description: CHANGE ME
+
+## Installation
+
+Install via composer
+```bash
+composer require cape-and-bay/service-generator
+```
+
+### Publish package assets
+
+```bash
+php artisan vendor:publish --provider="CapeAndBay\ServiceGenerator\ServiceProvider"
+```
+
+## Usage
+
+CHANGE ME
+
+## Security
+
+If you discover any security related issues, please email 
+instead of using the issue tracker.
+
+## Credits
+
+- [](https://github.com/cape-and-bay/service-generator)
+- [All contributors](https://github.com/cape-and-bay/service-generator/graphs/contributors)
+
+This package is bootstrapped with the help of
+[melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator).
