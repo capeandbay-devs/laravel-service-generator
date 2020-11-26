@@ -9,7 +9,7 @@ class ServiceGeneratorServiceProvider extends \Illuminate\Support\ServiceProvide
     public function register()
     {
         $this->commands([
-            MakeServiceCommand::class
+            MakeServiceCommand::class,
         ]);
     }
 }

@@ -2,8 +2,8 @@
 
 namespace CapeAndBay\ServiceGenerator\Commands\Utility;
 
-use Illuminate\Console\Command;
 use CapeAndBay\ServiceGenerator\Commands\BaseGeneratorCommand;
+use Illuminate\Console\Command;
 
 class MakeServiceCommand extends BaseGeneratorCommand
 {
