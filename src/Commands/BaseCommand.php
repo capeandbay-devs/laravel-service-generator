@@ -69,9 +69,9 @@ abstract class BaseCommand extends Command
     {
         $time_elapsed_secs = microtime(true) - $start;
         $duration = $time_elapsed_secs;
-        $hours = (int)($duration/60/60);
-        $minutes = (int)($duration/60)-$hours*60;
-        $seconds = (int)$duration-$hours*60*60-$minutes*60;
+        $hours = (int) ($duration / 60 / 60);
+        $minutes = (int) ($duration / 60) - $hours * 60;
+        $seconds = (int) $duration - $hours * 60 * 60 - $minutes * 60;
         $this->info('Time to finish - '."{$hours}:{$minutes}:{$seconds}\n");
     }
 
@@ -79,14 +79,15 @@ abstract class BaseCommand extends Command
     {
         $date = new \DateTime(date('Y-m-d H:i:s'));
         $date->setTimezone(new \DateTimeZone('America/New_York'));
+
         return $date->format('h:i A');
     }
 
-    function progress_bar($done, $total, $info="", $width=50) {
+    public function progress_bar($done, $total, $info = '', $width = 50)
+    {
         $perc = round(($done * 100) / $total);
         $bar = round(($width * $perc) / 100);
-        $this->info(sprintf("%s%%[%s>%s]%s\r", $perc, str_repeat("=", $bar), str_repeat(" ", $width-$bar), $info));
+        $this->info(sprintf("%s%%[%s>%s]%s\r", $perc, str_repeat('=', $bar), str_repeat(' ', $width - $bar), $info));
         system('clear');
-
     }
 }
